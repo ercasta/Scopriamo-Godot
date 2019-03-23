@@ -1,0 +1,20 @@
+{# Import the theme's layout. #}
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+
+<script type="text/javascript">
+        $(document).ready(function(){   
+            $('div.admonition.hint p.first.admonition-title').text("Soluzione (clicca per mostrare)")
+            $('div.admonition.hint p.first.admonition-title').nextAll('p').slideToggle(0)
+            $('div.admonition.hint p.first.admonition-title').nextAll('div.highlight-gdscript').slideToggle(0)
+            $('div.admonition.hint p.first.admonition-title').click(function(){   
+                $(this).toggleClass('active');      
+                $(this).nextAll('p').slideToggle(1);
+                $(this).nextAll('div.highlight-gdscript').slideToggle(1)
+            });
+        });
+</script>
+
+{{ super() }}
+{% endblock %}
