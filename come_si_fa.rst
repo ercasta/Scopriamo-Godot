@@ -82,7 +82,7 @@ Poi si configurano le opzioni. ``Current`` va impostato a ``On`` se si vuole che
 Disegnare il livello
 ================================================
 
-Per disegnare il livello bisogna agire sul nodo `TileMap`(letteralmente vuol dire "mappa di piastrelle"):
+Per disegnare il livello bisogna agire sul nodo `TileMap` (letteralmente vuol dire "mappa di piastrelle"):
 
 .. figure:: img/tilemap/nodo.png
    :alt: Nodo TileMap
@@ -127,3 +127,18 @@ Infine possiamo fare qualcosa nella funzione, ad esempio: ::
         if "Alieno" in body.name:
             body.morto()
             queue_free()
+
+
+
+Scegliere la scena iniziale
+================================================
+I giochi in Godot sono organizzati in scene. Quando premiamo il tasto "play", Godot fa partire la scena iniziale.
+La scena iniziale si imposta dal menù `Progetto -> Impostazioni Progetto`>:
+
+.. figure:: img/selezione_scena_iniziale/impostazioni_progetto.png
+   :alt: Il menù `Impostazioni progetto`
+
+La scena iniziale si sceglie nella sezione `Run`:
+
+.. figure:: img/selezione_scena_iniziale/scena_iniziale.png
+   :alt: Il menù `Run`
