@@ -23,6 +23,7 @@ E' comunque possibile utilizzarlo anche se non si ha esperienza con Scratch, tut
    come_si_fa.rst
    esercizi.rst
 
+
 Questa guida è ancora in bozza. In linea con la filosofia della Godot Engine, piuttosto che aspettare, abbiamo preferito cominciare a pubblicarla così com'è. 
 
 In rete c'è tanto materiale interessante (anche se spesso in inglese). Ad esempio questo: `videotutorial <https://www.youtube.com/watch?v=MMsMtPVUtUE&list=PLyckz_-Rzq6ClGevL2fneJ5YJnMPKWa4M>`_ a cui questa guida è ispirata.

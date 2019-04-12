@@ -1,8 +1,8 @@
 
-.. _Il Cavaliere Miaogico:
+.. _IlCavaliereMiaogico1:
 
-Il Cavaliere Miaogico
-==================================
+Il Cavaliere Miaogico - Esercizio 1
+=====================================
 
 Per questo esercizio ti serve il progetto di base :download:`Il Cavaliere Miaogico <files/Il Cavaliere Miaogico.zip>`
 
