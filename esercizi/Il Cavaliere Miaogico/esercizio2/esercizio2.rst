@@ -4,7 +4,7 @@
 Il Cavaliere Miaogico - Esercizio 2
 =====================================
 
-Per questo esercizio ti serve il progetto di base `Il Cavaliere Miaogico`
+Per questo esercizio ti serve il progetto di che si trova nella cartella ``materiale\esercizio1``.
 
 In questo esercizio:
 

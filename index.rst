@@ -14,7 +14,7 @@ A chi si rivolge
 
 Questo manuale è pensato per i Ninja dai 10 ai 17 anni che hanno già fatto esperienza di coding con `Scratch <https://scratch.mit.edu/>`_.
 
-E' comunque possibile utilizzarlo anche se non si ha esperienza con Scratch, tuttavia il manuale spiega alcuni concetti di Godot facendo riferimento a concetti / tecniche presenti in Scratch.
+É comunque possibile utilizzarlo anche se non si ha esperienza con Scratch, tuttavia il manuale spiega alcuni concetti di Godot facendo riferimento a concetti / tecniche presenti in Scratch.
  
 .. toctree::
    :maxdepth: 2

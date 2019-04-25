@@ -4,7 +4,7 @@
 Il Cavaliere Miaogico - Esercizio 1
 =====================================
 
-Per questo esercizio ti serve il progetto di base :download:`Il Cavaliere Miaogico <files/Il Cavaliere Miaogico.zip>`
+Per questo esercizio ti serve il progetto di che si trova nella cartella ``materiale\esercizio1``.
 
 I passaggi dell'esercizio sono:
 
