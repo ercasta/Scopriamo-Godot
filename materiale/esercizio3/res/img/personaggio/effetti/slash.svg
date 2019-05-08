@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="38.78035mm"
+   height="62.744045mm"
+   viewBox="0 0 38.78035 62.744045"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="slash.svg"
+   inkscape:export-filename="D:\creazioni\Godot\Platfy\res\img\personaggio\effetti\slash.png"
+   inkscape:export-xdpi="89.135597"
+   inkscape:export-ydpi="89.135597">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="96.527766"
+     inkscape:cy="108.61672"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-95.930371,-92.136904)">
+    <path
+       style="opacity:1;vector-effect:none;fill:#efeb46;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 134.71072,123.50893 c 0,17.32629 -34.54702,31.37202 -34.54702,31.37202 0,0 21.54464,-14.04573 21.54464,-31.37202 0,-17.32629 -21.54464,-31.372026 -21.54464,-31.372026 0,0 34.54702,14.045736 34.54702,31.372026 z"
+       id="path3713"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scscs" />
+    <path
+       sodipodi:nodetypes="scscs"
+       inkscape:connector-curvature="0"
+       id="path4521"
+       d="m 117.62623,123.50893 c 0,12.84921 -21.695859,23.26555 -21.695859,23.26555 0,0 10.483549,-10.41634 10.483549,-23.26555 0,-12.84921 -10.483549,-23.26556 -10.483549,-23.26556 0,0 21.695859,10.41635 21.695859,23.26556 z"
+       style="opacity:1;vector-effect:none;fill:#efeb46;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.19621551;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+  </g>
+</svg>

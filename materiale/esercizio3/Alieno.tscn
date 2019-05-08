@@ -1,0 +1,111 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://res/img/alieno/alieno_zampe_a.svg" type="Texture" id=1]
+[ext_resource path="res://res/img/alieno/alieno_zampe_b.svg" type="Texture" id=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends KinematicBody2D
+
+
+export (int) var run_speed = 100
+export (int) var gravity = 2000
+
+const SALUTE_BASE = 3
+var salute = 3
+var vivo = true
+
+var velocity = Vector2(run_speed,0)
+
+func morto():
+	salute = salute - 1
+	if salute <= 0:
+		hide()
+		vivo = false
+		$Rinasci.start()
+	
+func _ready():
+	$AnimatedSprite.set_flip_h(false)
+	$AnimatedSprite.play(\"default\")
+
+func voltati(vel_precedente):
+	velocity.x = vel_precedente * -1
+	$RayCast2D.position.x = -1 * $RayCast2D.position.x
+	$RayCast2D.rotate(PI)
+	if velocity.x < 0:
+		$AnimatedSprite.set_flip_h(true)
+
+func _physics_process(delta):
+	if vivo == false:
+		$CollisionShape2D.disabled=true
+	else:
+		$CollisionShape2D.disabled=false
+	velocity.y += gravity * delta
+	var vel_precedente = velocity.x
+	velocity = move_and_slide(velocity, Vector2(0, -1))
+	if get_slide_count()>0:
+		for i in range(get_slide_count()):
+			if \"Personaggio\" in get_slide_collision(i).collider.name:
+				get_slide_collision(i).collider.colpito()
+				
+	if is_on_wall():
+		voltati(vel_precedente)
+		
+	## Completa qui
+
+
+	## Fine		
+		
+
+func rinasci():
+	salute = SALUTE_BASE
+	vivo = true
+	global_position = Vector2(randi()%1600 - 800,200)
+	velocity = Vector2(run_speed,0)
+	$CollisionShape2D.disabled=false
+	show()
+	
+func _on_Rinasci_timeout():
+	rinasci()
+
+
+func _on_Spaventato_timeout():
+	var vel_precedente = velocity.x
+	velocity.x = sign(vel_precedente) * run_speed
+"
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 33.1047, 18.5952 )
+
+[node name="KinematicBody2D" type="KinematicBody2D"]
+collision_layer = 4
+collision_mask = 2
+script = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 0.4, 0.4 )
+frames = SubResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 3 )
+
+[node name="Rinasci" type="Timer" parent="."]
+one_shot = true
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2( 33.5892, 0.568802 )
+rotation = 4.71239
+scale = Vector2( 1, 2 )
+enabled = true
+
+[node name="Spaventato" type="Timer" parent="."]
+
+[connection signal="timeout" from="Rinasci" to="." method="_on_Rinasci_timeout"]
+[connection signal="timeout" from="Spaventato" to="." method="_on_Spaventato_timeout"]

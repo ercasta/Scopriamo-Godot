@@ -12,4 +12,5 @@ In questo progetto ci sono i seguenti esercizi:
 
 - :ref:`IlCavaliereMiaogico1` 
 - :ref:`IlCavaliereMiaogico2` 
+- :ref:`IlCavaliereMiaogico3` 
 
