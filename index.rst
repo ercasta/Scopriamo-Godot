@@ -9,12 +9,16 @@ Scopriamo Godot!
 
 Benvenuto! Questo manuale di guiderà alla scoperta della `Godot Engine <https://godotengine.org/>`_.
 
+.. IMPORTANT:: Questa guida si basa sulla versione 3.1 di Godot!
+
 A chi si rivolge
 ================================================
 
-Questo manuale è pensato per i Ninja dai 10 ai 17 anni che hanno già fatto esperienza di coding con `Scratch <https://scratch.mit.edu/>`_.
+Questa manuale è pensato per i Ninja dai 10 ai 17 anni che hanno già fatto esperienza di coding con `Scratch <https://scratch.mit.edu/>`_.
 
 É comunque possibile utilizzarlo anche se non si ha esperienza con Scratch, tuttavia il manuale spiega alcuni concetti di Godot facendo riferimento a concetti / tecniche presenti in Scratch.
+
+Ricorda che puoi scaricare tutto il materiale di base dal `repository GitHub <https://github.com/ercasta/Scopriamo-Godot/>`_ , dove potrai anche segnalare errori, suggerimenti di miglioramento, o richieste di aggiunte al manuale.
  
 .. toctree::
    :maxdepth: 2

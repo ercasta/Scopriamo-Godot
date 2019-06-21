@@ -3,6 +3,13 @@ This Tutorial is licensed under the CC-BY 3.0 License.
 The pygment gdscript is from the original Godot Docs Repository https://github.com/godotengine/godot-docs/,
 by "Juan Linietsky, Ariel Manzur and the Godot community"
 
+
+Explosion sounds by Unnamed (Viktor.Hahn@web.de), 
+is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. 
+http://creativecommons.org/licenses/by-sa/3.0/
+
+
+
 Creative Commons Legal Code
 
 Attribution 3.0 Unported
